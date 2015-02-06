@@ -30,6 +30,8 @@ on Customers.ID=Orders.Customer_ID
 A WORD ABOUT #5.  In MySQL IFNULL is used to return a different value if a query returns null.  I don't
 have MS SQL at home but ISNULL should do the same thing as I understand it.  This way if a customer has
 no orders in the orders table we will see a "0" instead of null.
+ALSO, the question had the Phone Number column displayed without an underscore between Phone and Number.
+The "`" mark allows me to account for this.  I think that still works in MS SQL.
 
 
 6
